@@ -11,4 +11,4 @@ if ! [ -x "$(command -v pkg-config)" ]; then
 fi
 
 [ ! -d './build' ] && mkdir build/
-make cli && make gui
+make cli && make gui && make main

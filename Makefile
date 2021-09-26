@@ -13,3 +13,6 @@ cli:
 
 gui:
 	$(CC) $(CFLAGS) $(GTKCFLAGS) src/gui.c -o build/gui $(LDFLAGS)
+
+main:
+	$(CC) $(CFLAGS) -ljson-c src/main.c src/core/bookmark.c -o build/main
