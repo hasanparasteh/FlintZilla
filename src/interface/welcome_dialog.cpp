@@ -76,7 +76,7 @@ bool CWelcomeDialog::Run(wxWindow* parent, bool force)
 
 	main->Add(new wxStaticLine(this), lay.grow);
 
-	wxString const url = _T("https://welcome.filezilla-project.org/welcome?type=client&category=%s&version=") + ownVersion;
+	wxString const url = _T("https://hasanparasteh.ir/welcome?type=client&category=%s&version=") + ownVersion;
 
 	main->Add(new wxPanel(this, XRCID("ID_HEADERMESSAGE_PANEL")), lay.halign)->Show(false);
 
